@@ -1,0 +1,82 @@
+    body {
+        display: flex;
+        flex-direction: column;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #40ac12ec;
+
+        margin:0;
+        letter-spacing: 1;
+
+    }
+    .header {
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        margin-bottom: 20px; 
+    }
+    .background {
+        display: flex;
+            flex-direction: column;
+            align-items: center; 
+            padding: 5px; 
+            background-color: #f2f2f2;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 20);
+            overflow-x: hidden; 
+            margin: 0 auto; 
+            margin: 0 auto; 
+            width:40%;    
+            margin-top:140px;
+            height: 500px;
+            border-radius: 60px;
+        
+    }
+    hr {
+        color:black;
+        background-color: black;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    input, select, textarea {
+        padding:15px;
+        border-radius:15px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        margin-top:40px;
+
+    }
+
+
+    .input-container input[type="email"],
+    .input-container input[type="password"] {
+        padding: 15px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 1.5);
+        width:100%;
+        margin-right:90px;
+    }
+    input[type="submit"]{
+        background-color:#40ac12ec;
+        font-weight:800;
+        color:white;
+    }
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .form-container {
+        width: 1200px; 
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 8%;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+    
+    }
